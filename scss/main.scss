@@ -1,8 +1,4 @@
-header {
-    p {
-    color: green;
-    background-color: white;
-    }
-    
-    
-    }
+@import "./header.scss"  
+
+
+// importar siempre adentro de la carpeta "scss" y dentro del archivo "main.scss o app.scss" (same estos dos ultimos)
