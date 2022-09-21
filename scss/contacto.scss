@@ -1,0 +1,16 @@
+@mixin flex_direccion ($screen,$direction){
+
+display: $screen;
+flex-direction: $direction;
+
+
+}
+
+.form {
+// display: flex ;
+// flex-direction: column;
+@flex_direction (flex,column)
+align-items: center;
+justify-content: space-around;
+
+}

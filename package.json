@@ -5,7 +5,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
-    
     "watch-css": "nodemon -e scss -x \"npm run build-css \""
   },
   "author": "",
@@ -18,5 +17,8 @@
     "url": "https://github.com/Frankob777/Proyecto-CoderHouse/issues"
   },
   "homepage": "https://github.com/Frankob777/Proyecto-CoderHouse#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
